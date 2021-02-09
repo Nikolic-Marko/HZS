@@ -9,11 +9,13 @@ const Forum = () => {
   return (
     <React.Fragment>
       <Header />
-      <div className={classes.Forum}>
-        <ForumNavigacija />
-        <div className={classes.ForumCentar}>
-          <ForumKategorije />
-          <ForumLatest />
+      <div className={classes.Background}>
+        <div className={classes.Forum}>
+          <ForumNavigacija />
+          <div className={classes.ForumCentar}>
+            <ForumKategorije />
+            <ForumLatest />
+          </div>
         </div>
       </div>
     </React.Fragment>

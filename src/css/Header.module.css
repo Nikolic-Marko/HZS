@@ -11,7 +11,7 @@
 
 .Header img {
   max-height: 6rem;
-  padding: 1rem 0;
+  padding: 0;
 }
 
 .Links {
@@ -22,7 +22,7 @@
 .Link {
   text-decoration: none;
   border: 2px solid white;
-  padding: 0.5rem 2rem;
+  padding: 0.4rem 1.5rem;
   margin: 0.7rem;
   color: white;
   font-size: 0.9rem;

@@ -8,3 +8,7 @@
 .ForumCentar {
   display: flex;
 }
+
+.Background {
+  background-color: #fafafa;
+}
