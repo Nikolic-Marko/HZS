@@ -49,6 +49,38 @@ const ForumKategorije = () => {
 
         <div className={classes.Topics}>134</div>
       </div>
+      <div className={classes.Kartica}>
+        <div className={classes.Content}>
+          <NavLink
+            to="/forum/ostalo"
+            style={{ textDecoration: 'none', color: 'black' }}
+          >
+            <h3>Ostalo</h3>
+          </NavLink>
+          <p>
+            Sve što ne spada ni u jednu drugu kategoriju. Ako ne znate gde,
+            postavite vašu temu ovde.
+          </p>
+        </div>
+
+        <div className={classes.Topics}>134</div>
+      </div>
+      <div className={classes.Kartica}>
+        <div className={classes.Content}>
+          <NavLink
+            to="/forum/ostalo"
+            style={{ textDecoration: 'none', color: 'black' }}
+          >
+            <h3>Ostalo</h3>
+          </NavLink>
+          <p>
+            Sve što ne spada ni u jednu drugu kategoriju. Ako ne znate gde,
+            postavite vašu temu ovde.
+          </p>
+        </div>
+
+        <div className={classes.Topics}>134</div>
+      </div>
     </div>
   )
 }
