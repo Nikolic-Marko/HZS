@@ -1,16 +1,28 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
-import '../css/Header.css'
+import classes from '../css/Header.module.css'
+import Logo from '../assets/HZSlogo.png'
 
 class Header extends Component {
   render() {
     return (
-      <div className="header">
-        <NavLink to="/" style={{ padding: '1rem' }}>
-          {/* STYLE JE SAMO PRIVREMENO */}
-          HOME
-        </NavLink>
-        <NavLink to="/forum">FORUM</NavLink>
+      <div className={classes.Header}>
+        <div className={classes.HeaderWidth}>
+          <NavLink to="/">
+            <img src={Logo} alt="logo" />
+          </NavLink>
+          <div className={classes.Links}>
+            <div className={classes.Text}>2-3 APRILA</div>
+
+            <NavLink to="/forum" className={classes.Link}>
+              FORUM
+            </NavLink>
+
+            <NavLink to="/error404" className={classes.Link}>
+              PRIJAVI SE
+            </NavLink>
+          </div>
+        </div>
       </div>
     )
   }
